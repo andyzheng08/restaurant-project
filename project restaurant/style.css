@@ -1,0 +1,142 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgb(150, 209, 224);
+    font-size: 18px;
+    padding-bottom: 65px; 
+}
+
+
+.jumbotron {
+    background-color: rgb(94, 162, 218);
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+    min-height: 200px;
+}
+
+.bg-cover {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIL8iBeubwGDiTBvRxQ2X4hX7LprgZglVzbfk5jnEJ61IcwEKE);
+    height: 250px;
+    background-size: cover;
+}
+
+.card {
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: left;
+    margin-bottom: 70px;
+}
+
+.menu-body {
+    max-width: 700px;
+    display: block;
+    color: black;
+    align-items: center;
+    
+}
+
+.menu-body h1 {
+    text-align: left;
+    font-family: georgia;
+}
+
+.menu-section {
+    margin-bottom: 80px;
+
+}
+
+
+.menu-section-title {
+    font-family: georgia;
+    font-size: 38px;
+    margin: 20px 0; 
+    text-align: Center;
+}
+
+.menu-item {
+    margin: 35px 0;
+    font-size: 25px;
+}
+
+.menu-item-name{
+    font-family: 'Charm', cursive;
+    font-weight: bold;
+    border-bottom: 2px dotted black;
+}
+
+.menu-item-description {
+    font-style: italic;
+    font-size: 12px;
+    line-height: 20px;
+}
+  
+.menu-item-price{
+    float: right;
+    font-weight: bold;
+    font-family: 'Charm', cursive;
+    margin-top: -30px;
+}
+
+.warning {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 45px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+}
+  
+div.gallery:hover {
+    border: 1px solid rgb(126, 123, 123);
+}
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.contact {
+    margin-left: 50px;
+
+}
+
+h2 {
+    margin-left: 70px;
+    margin-top: 70px;
+    font-weight: bold;
+}
+
+.map-container {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+    
+.map-container iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.one {
+    margin-left: 60px;
+}
+
+
+
